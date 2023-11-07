@@ -11,7 +11,9 @@
   "dependencies": {
     "@clerk/nextjs": "^4.26.2",
     "@t3-oss/env-nextjs": "^0.7.0",
+    "babel-eslint": "^10.1.0",
     "dayjs": "^1.11.10",
+    "eslint-plugin-import-quotes": "^0.0.1",
     "firebase": "^10.5.2",
     "next": "^14.0.0",
     "react": "18.2.0",
@@ -19,20 +21,13 @@
     "zod": "^3.22.4"
   },
   "devDependencies": {
-    "@types/eslint": "^8.44.2",
-    "@types/node": "^18.16.0",
-    "@types/react": "^18.2.33",
-    "@types/react-dom": "^18.2.14",
-    "@typescript-eslint/eslint-plugin": "^6.3.0",
-    "@typescript-eslint/parser": "^6.3.0",
     "autoprefixer": "^10.4.14",
     "eslint": "^8.47.0",
     "eslint-config-next": "^14.0.0",
     "postcss": "^8.4.27",
     "prettier": "^3.0.0",
     "prettier-plugin-tailwindcss": "^0.5.1",
-    "tailwindcss": "^3.3.3",
-    "typescript": "^5.1.6"
+    "tailwindcss": "^3.3.3"
   },
   "ct3aMetadata": {
     "initVersion": "7.23.1"
