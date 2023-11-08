@@ -12,7 +12,7 @@ const [message,setMessage] = useState('')
 
   useEffect(() => {
     const unsubscribe = onSnapshot(collection(db, 'test'), (snapshot) => {
-      const updatedData:[] = [];
+      const updatedData = [];
       snapshot.forEach((doc) => {
         updatedData.push({ id: doc.id, ...doc.data() });
       });
